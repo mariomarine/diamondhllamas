@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <div>
-          <img src='landscape_1.jpg' alt="Landscape" />
+          <Image src={landscape} alt="Landscape" />
         </div>
         <div className={styles.grid}>
           <Link href='/herd'>

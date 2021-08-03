@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 import useSWR from 'swr'
 import Header from '../../components/Header'
 import Head from '../../components/Head'
@@ -39,7 +40,7 @@ export default function Llama() {
       <main className={styles.main}>
         <Header />
 
-        <img src={"../" + data.profile_pic} />
+        <Image src={'/' + data.profile_pic} width='400' height='225' />
         <h2>{data.name}</h2>
         <p>{gender}</p>
         <p>{data.description}</p>
