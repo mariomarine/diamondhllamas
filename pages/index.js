@@ -18,6 +18,10 @@ export default function Home() {
         <div>
           <Image src={landscape} alt="Landscape" />
         </div>
+        <div className={styles.under_construction}>
+          <h2>Under Construction</h2>
+          <p>Please note our new site is under construction. Feel free to <Link href='contact-us'><a>contact us</a></Link> and stay tuned as we develop our site!</p>
+        </div>
         <div className={styles.grid}>
           <Link href='/herd'>
             <a className={styles.card}>

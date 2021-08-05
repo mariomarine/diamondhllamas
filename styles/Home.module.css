@@ -23,6 +23,20 @@
   padding: 20px;
 }
 
+.under_construction {
+  display: grid;
+  padding: 10px;
+}
+
+.under_construction > * {
+  padding: 20px;
+  margin: auto;
+}
+
+.under_construction > h2 {
+  font-size: 2rem;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
