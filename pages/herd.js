@@ -18,6 +18,7 @@ export default function Home() {
   if (!data) return <div>Loading...</div>
 
   console.log(data);
+  console.log('herd page path: ' + __dirname);
 
   return (
     <div className={styles.container}>
