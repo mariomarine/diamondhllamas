@@ -7,6 +7,7 @@ import Llama from '../components/Llama'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Head from '../components/Head'
+import Navbar from '../components/Navbar'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
@@ -22,6 +23,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head />
       <Header />
+      <Navbar />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
