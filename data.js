@@ -18,7 +18,7 @@ export const llamas = [
     profile_pic: "greyling.jpg",
   },
   {
-    id: '2',
+    id: '3',
     name: 'Echo',
     gender: 'F',
     for_sale: 'N',
