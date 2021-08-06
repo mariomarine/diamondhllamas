@@ -12,13 +12,13 @@ import Navbar from '../components/Navbar'
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 export default function Home() {
+  console.log(data);
+  console.log('herd page path: ' + __dirname);
+
   const { data, error } = useSWR('/api/llamas', fetcher)
 
   if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
-
-  console.log(data);
-  console.log('herd page path: ' + __dirname);
 
   return (
     <div className={styles.container}>
