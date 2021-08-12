@@ -35,3 +35,8 @@ yarn-error.log*
 
 package-lock.json
 *.swp
+
+# python
+venv/
+.pyc
+*.zip
